@@ -11,7 +11,7 @@ function App() {
 
   async function handleClick() {
     try {
-      const response = await axios.get('http://localhost:3000/');
+      const response = await axios.get('https://global-backend-1-w9nk.onrender.com/');
       setDetail(response.data);
       console.log(response);
     } catch (error) {
